@@ -103,3 +103,19 @@ Future notification services can be added without altering existing classes.
 
 ---
 
+### Testing & Verification
+
+This project demonstrates:
+
+Delegation of notification behavior.
+
+Interchangeability of notification services.
+
+No modification required to extend the system.
+
+To verify:
+
+Instantiate AlertSystem with different implementations of NotificationMedium.
+
+Confirm correct output behavior for each notification type.
+
